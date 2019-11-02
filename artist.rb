@@ -11,3 +11,4 @@ sql = <<-SQL
 SQL
 
 ActiveRecord::Base.connection.execute(sql)
+end
